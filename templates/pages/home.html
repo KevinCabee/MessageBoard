@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block title%}Home{% endblock title%}
+
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+{% endblock extra_css %}
+
+
+
+{% block content %}
+<h1>HOME</h1>
+<img src="{% static '/img/pplhiking.jpg' %}" alt="ppl-hiking">
+<p>This is my HomePage for Hikers and their friends.</p>
+<p>Hey Hikers! This page is about creating a new hiking community forum. You can use this page to post new commnets,
+    ideas, and questions about hiking. </p>
+{% endblock content %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title%}About Developer{% endblock title%}
+
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock extra_css %}
+
+{% block content %}
+<div class="about-developer">
+    <h1>About the Developer</h1>
+    <div class="about-body">
+        <p>I'm Kevin Cabrera, a software engineering student who thrives on staying active. Whether it's hitting the gym, exploring new activities with friends, or diving into anything that challenges and engages my mind, I'm always looking for ways to keep both my body and brain in top shape. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptas id saepe facilis fugit, ea, illum deleniti culpa ducimus a ad nam temporibus explicabo! Voluptatibus ullam ipsam officia molestias id possimus nulla illo, necessitatibus natus impedit commodi aut quae alias quidem. Obcaecati molestias harum iusto! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo maxime totam architecto cum dolorem fugiat est! Deleniti corrupti quam dolorem accusamus odit adipisci est? Ea, reprehenderit! Nihil deleniti reiciendis dolorum accusantium unde consectetur cupiditate culpa sequi temporibus nam! Velit architecto dolorum quasi, et veritatis ducimus sequi tempora. Consequatur ut molestiae tenetur nesciunt, maiores velit debitis dignissimos, quis exercitationem quisquam minus sed nemo officia rem quia aperiam architecto dolor! Sequi dolorem perferendis maxime id, quos dolores esse vel maiores tenetur. Vitae dignissimos et ut, sunt impedit quam nam nisi!</p>
+        <img src="{% static 'img/Doggy.jpg' %}" alt="Doggy">
+    </div>
+</div>
+{% endblock content %}

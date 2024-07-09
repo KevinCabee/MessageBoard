@@ -1,0 +1,25 @@
+
+body {
+    background-color: #f6c523;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: #228c7b;
+    width: auto;
+}
+
+/* p {
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+
+} */
+
+
+
+
